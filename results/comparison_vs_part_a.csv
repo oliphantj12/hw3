@@ -1,0 +1,5 @@
+Source,CV RMSE,RMSE,R2,Train time (s)
+"PyCaret – best, all features (CatBoost Regressor)",140.0625,144.0279,0.739,1.472
+"PyCaret – best, top 3 features (Gradient Boosting Regressor)",170.149,176.0062,0.6102,0.15
+"Part A – best (v1_hp_b, MLP)",,145.6,0.725,19.0
+"Part A – fastest (v1_hp_a, MLP)",,146.2,0.722,4.6

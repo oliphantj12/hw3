@@ -1,0 +1,9 @@
+# Python 3.11 (PyCaret does not support newer Python versions)
+pycaret==3.3.2
+xgboost==3.2.0
+catboost==1.2.10
+mlflow==2.12.2        # newer MLflow breaks PyCaret's experiment logging
+setuptools<75         # MLflow 2.12 needs pkg_resources
+h2o==3.46.0.12
+ipykernel
+ipython<9             # PyCaret's matplotlib version breaks with IPython 9

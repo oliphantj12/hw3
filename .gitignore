@@ -1,0 +1,6 @@
+mlruns/
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+catboost_info/
+*.csv.zip
